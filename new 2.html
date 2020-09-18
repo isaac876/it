@@ -1,7 +1,25 @@
 <button id="rentofresh"> require</button>
+<script>
+rentofresh.onclick=function(){
+var isaac=new XMLHttpRequest()
+
+
+isaac.open("get",location+"/user")
+isaac.send()
+isaac.onload=function(){
+coby.innerHTML=isaac.response
+
+
+}
+
+
+}
 
 
 
+
+</script>
+<div id="coby"></div>
 
 
 
